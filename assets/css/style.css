@@ -1,0 +1,181 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bg-nav {
+  background-color: #6f0000;
+}
+
+/* .navbar li a{
+color: white!important;
+} */
+
+
+li nav{
+color: #000!important;
+
+}
+
+.titulo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.header {
+  width: 100%;
+  height: 1000px;
+  display: block;
+  clear: both;
+  /* sumamente importante la posición absoluta */
+  position: relative;
+}
+
+.header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.navbarNav a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.object-fit {
+  /* imagen se adapta a la dimension del contenedor;  */
+  object-fit: cover;
+  object-position: center;
+}
+
+.presentacion {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX (-50%);
+  bottom: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 72px;
+}
+
+.name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  /* display en bloque, asi lo forzamos a que este dentro del bloque y NO en la misma linea que "yo soy" */
+  display: block;
+  /* para crear la linea solida entre ambos textos usamos border top y margin top con  */
+  border-top: 2px solid #fff;
+  margin-top: 10p
+}
+
+.titulo_bio {
+  font-weight: 300;
+}
+
+.linea {
+  border: 1px solid black;
+}
+
+.titulo_xp {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -55px !important;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #6f0000;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+
+.text-uppercase {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+}
+
+.containerjobs {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 50px auto;
+  background: #6f0000;
+  padding: 20px;
+  border: 1px solid rgb(85, 85, 85);
+}
+
+.containerjobs row {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  clear: both;
+  padding: 20px;
+}
+
+.linea2 {
+  border: 1px solid white;
+}
+
+.popover-title {
+  font-size: 14px;
+  text-align: center;
+}
+
+.popover-content {
+  background-color: coral;
+  color: #000000;
+  padding: 25px;
+  font-size: 50px;
+}
+
+.name2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  /* display en bloque, asi lo forzamos a que este dentro del bloque y NO en la misma linea que "yo soy" */
+  display: block;
+  /* para crear la linea solida entre ambos textos usamos border top y margin top con  */
+}
