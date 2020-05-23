@@ -8,9 +8,10 @@ body {
   background-color: #6f0000;
 }
 
-/* .navbar li a{
+.navbar li a{
 color: white!important;
-} */
+font-weight: 300;
+}
 
 
 li nav{
