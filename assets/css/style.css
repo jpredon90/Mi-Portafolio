@@ -1,3 +1,9 @@
+/* TEXTOS */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+ */
+
 body {
   margin: 0px;
   padding: 0px;
@@ -83,12 +89,20 @@ h1 {
 }
 
 .titulo_bio {
+  font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
 
 .linea {
   border: 1px solid black;
 }
+
+.texto_bio {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+letter-spacing: 3px;
+}
+
 
 .titulo_xp {
   font-family: 'Oswald', sans-serif;
@@ -145,6 +159,7 @@ h1 {
   background: #6f0000;
   padding: 20px;
   border: 1px solid rgb(85, 85, 85);
+  margin-bottom: 50px;
 }
 
 .containerjobs row {
@@ -154,13 +169,26 @@ h1 {
   display: block;
   clear: both;
   padding: 20px;
+  padding-bottom: 20px;
 }
 
 .linea2 {
   border: 1px solid white;
 }
 
-.popover-title {
+.card-title {
+font-family: 'Oswald', sans-serif;
+font-size: 23px;
+font-weight: 400;
+}
+
+.card-text {
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-weight: 300;
+}
+
+/* .popover-title {
   font-size: 14px;
   text-align: center;
 }
@@ -170,7 +198,7 @@ h1 {
   color: #000000;
   padding: 25px;
   font-size: 50px;
-}
+} */
 
 .name2 {
   font-family: 'Oswald', sans-serif;
